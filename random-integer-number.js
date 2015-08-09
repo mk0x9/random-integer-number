@@ -1,17 +1,21 @@
 function RandomIntegerNumber() {
-  var hi, lo, sign = 1;
+  var hi, lo;
 
-  do {
+  while (true) {
     hi = Math.random() * (1 << 26) | 0,
     lo = Math.random() * (1 << 26) | 0;
+    sign = 1;
 
     if (hi >= (1 << 25)) {
       sign = -1;
       hi -= 1 << 25;
+      if (hi === 0 && lo === 0) { // that's negative zero
+        continue;
+      }
     }
-  } while (hi === 0 && lo === 0);
 
-  return sign * (hi * (1 << 26)) + lo;
+    return sign * (hi * (1 << 26)) + lo;
+  }
 }
 
 module.exports = RandomIntegerNumber;
