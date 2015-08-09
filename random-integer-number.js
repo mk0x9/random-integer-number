@@ -2,7 +2,7 @@ function RandomIntegerNumber() {
   var hi, lo;
 
   while (true) {
-    hi = Math.random() * (1 << 26) | 0,
+    hi = Math.random() * (1 << 26) | 0;
     lo = Math.random() * (1 << 26) | 0;
     sign = 1;
 
