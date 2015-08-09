@@ -1,0 +1,13 @@
+{
+  "name": "random-integer-number",
+  "version": "0.0.1",
+  "description": "A package for generating integers in a range from Number.MIN_SAFE_INTEGER to Number.MAX_SAFE_INTEGER",
+  "main": "random-integer-number.js",
+  "keywords": [
+    "random",
+    "number",
+    "integer"
+  ],
+  "author": "Michael Kuryshev <me@mk9.name>",
+  "license": "CC0"
+}
