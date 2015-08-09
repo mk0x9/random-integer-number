@@ -8,6 +8,14 @@
     "number",
     "integer"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mk0x9/random-integer-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk0x9/random-integer-number/issues",
+    "email": "me@mk9.name"
+  },
   "author": "Michael Kuryshev <me@mk9.name>",
   "license": "CC0"
 }
