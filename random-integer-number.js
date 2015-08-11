@@ -1,5 +1,5 @@
 function RandomIntegerNumber() {
-  var hi, lo;
+  var hi, lo, sign;
 
   while (true) {
     hi = Math.random() * (1 << 26) | 0;
