@@ -1,7 +1,7 @@
 {
   "name": "random-integer-number",
-  "version": "0.0.4",
-  "description": "A package for generating integer number with uniform distribution in the range from Number.MIN_SAFE_INTEGER to Number.MAX_SAFE_INTEGER",
+  "version": "0.0.5",
+  "description": "A package providing function generating integer numbers with uniform distribution in the range from Number.MIN_SAFE_INTEGER to Number.MAX_SAFE_INTEGER",
   "main": "random-integer-number.js",
   "keywords": [
     "random",
@@ -17,5 +17,5 @@
     "email": "me@mk9.name"
   },
   "author": "Michael Kuryshev <me@mk9.name>",
-  "license": "CC0"
+  "license": "CC0-1.0"
 }
